@@ -827,6 +827,15 @@ wheels = [
 ]
 
 [[package]]
+name = "json-repair"
+version = "0.64.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/8d/8b/c6d0d41a005765860cd69e25350e7a3346063bd08eeec5509d0b1842f002/json_repair-0.64.6.tar.gz", hash = "sha256:228ef7bc924e2d4683fea810c0b2c9f5c40984a9e451d9bb568d256984fa392c", size = 55294, upload-time = "2026-11-06T13:15:45.142Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b1/31/3b4625befbf749c627659319f203c96ce5a2937f874abc802e4e36dcc936/json_repair-0.64.6-py3-none-any.whl", hash = "sha256:4affdb56208ec2b34d668a4384583b8b080d4e2ff48cc2f8c07a5cf46d559e2f", size = 53293, upload-time = "2026-11-06T13:15:43.692Z" },
+]
+
+[[package]]
 name = "jsonpatch"
 version = "1.43"
 source = { registry = "https://pypi.org/simple" }
@@ -2725,6 +2734,7 @@ dependencies = [
     { name = "certifi" },
     { name = "fastapi" },
     { name = "jinja2" },
+    { name = "json-repair" },
     { name = "langchain" },
     { name = "langchain-community" },
     { name = "langchain-groq" },
@@ -2749,6 +2759,7 @@ requires-dist = [
     { name = "certifi", specifier = "==2026.6.17" },
     { name = "fastapi", specifier = "==0.136.3" },
     { name = "jinja2", specifier = "==3.1.6" },
+    { name = "json-repair", specifier = ">=0.64.6" },
     { name = "langchain", specifier = "==1.3.2" },
     { name = "langchain-community", specifier = "==0.4.2" },
     { name = "langchain-groq", specifier = "==1.1.3" },
